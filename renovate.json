@@ -3,6 +3,7 @@
   "prCreation": "not-pending",
   "extends": ["config:base", ":preserveSemverRanges"],
   "rangeStrategy": "bump",
+  "prConcurrentLimit": 5,
   "packageRules": [
     {
       "groupName": "TypeScript Jest",
