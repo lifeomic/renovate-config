@@ -1,0 +1,13 @@
+{
+  "recreateClosed": true,
+  "prCreation": "not-pending",
+  "extends": ["config:base", ":preserveSemverRanges"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "groupName": "TypeScript Jest",
+      "extends": "monorepo:jest",
+      "packageNames": ["ts-jest"]
+    }
+  ]
+}
