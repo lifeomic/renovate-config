@@ -4,6 +4,17 @@
       "packageNames": [ "aws-sdk" ],
       "allowedVersions": "2.290.0",
       "rangeStrategy": "pin"
+    },
+    {
+      "packageNames": [ "@types/aws-lambda" ],
+      "allowedVersions": "~8.10.0",
+      "rangeStrategy": "pin"
+    },
+    {
+      "packageNames": [ "@types/node" ],
+      "allowedVersions": "~8.10.0",
+      "rangeStrategy": "pin"
     }
+
  ]
 }
