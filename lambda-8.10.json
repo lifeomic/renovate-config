@@ -7,14 +7,11 @@
     },
     {
       "packageNames": [ "@types/aws-lambda" ],
-      "allowedVersions": "~8.10.0",
-      "rangeStrategy": "pin"
+      "allowedVersions": "<8.11"
     },
     {
       "packageNames": [ "@types/node" ],
-      "allowedVersions": "~8.10.0",
-      "rangeStrategy": "pin"
+      "allowedVersions": "<8.11"
     }
-
  ]
 }
